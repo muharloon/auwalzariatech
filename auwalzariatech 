@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html lang="ha">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AUWAL ZARIA TECH - Koyar da Programming</title>
+  <meta name="description" content="AUWAL ZARIA TECH - Koyar da Programming cikin Hausa: Python, Java, C++." />
+  <style>
+    :root{--green:#16a34a;--blue:#0b76ef;--bg:#f6fbf9;--card:#ffffff}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;background:var(--bg);color:#07202a}
+    .container{max-width:1000px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .logo{font-weight:800;color:var(--green);font-size:18px}
+    nav a{margin-left:12px;text-decoration:none;color:#123;opacity:.9}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:28px;background:linear-gradient(180deg,rgba(22,163,74,0.06),rgba(11,118,239,0.03));border-radius:12px}
+    .hero h1{font-size:30px;margin-bottom:8px;color:var(--green)}
+    .hero p{color:#073b4a}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:linear-gradient(90deg,var(--green),var(--blue));color:#fff;font-weight:700}
+    .buttons{margin-top:12px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    .primary{background:var(--blue);color:#fff}
+    .secondary{background:transparent;border:1px solid rgba(17,24,39,0.08);color:#123}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:18px}
+    .card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(11,22,40,0.04)}
+    footer{margin-top:22px;text-align:center;color:#567;padding:12px}
+    @media(min-width:760px){.hero{grid-template-columns:1fr 360px}.hero h1{font-size:36px}}
+    .contact form{display:flex;flex-direction:column;gap:8px}
+    input,textarea{padding:10px;border-radius:8px;border:1px solid #dbe6f3}
+    .course-list li{margin-bottom:8px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">AUWAL ZARIA TECH</div>
+      <nav>
+        <a href="#home">Gida</a>
+        <a href="#about">Game da</a>
+        <a href="#courses">Darussa</a>
+        <a href="#contact">Tuntuɓi</a>
+      </nav>
+    </header><main>
+  <section id="home" class="hero">
+    <div>
+      <span class="badge">Koyarwa cikin Hausa</span>
+      <h1>AUWAL ZARIA TECH</h1>
+      <p>Koyar da programming cikin Hausa — <strong>Python</strong>, <strong>Java</strong>, da <strong>C++</strong>. Darussan mu suna da sauƙin bi, misalai na aiki, da aikin hannu.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#courses">Duba Darussa</a>
+        <a class="btn secondary" href="#contact">Tuntuɓe mu</a>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Quick info</h3>
+      <p style="font-size:14px;color:#264">AUWAL ZARIA TECH yana mai da hankali kan koyarwa ga masu farawa da masu matsakaici. Karɓi darussa na kan layi da na aji.</p>
+      <ul style="margin-top:8px;color:#0b2b4a">
+        <li>Siffa: Responsive</li>
+        <li>Harshe: Hausa</li>
+        <li>Modules: Python, Java, C++</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about" style="margin-top:18px">
+    <div class="grid">
+      <div class="card">
+        <h3>Game da AUWAL ZARIA TECH</h3>
+        <p>Muna ba da darussa masu amfani domin koyar da programming daga matakin farko har zuwa matakin aiki. Manufarmu: taimaka wa matasa su samu ilimi, aiki, da ayyuka masu kyau.</p>
+      </div>
+      <div class="card">
+        <h3>Me za mu koya</h3>
+        <p>Darussan sun haɗa da: harsuna guda uku (Python, Java, C++), ayyukan hannu, gwaje-gwaje, da shiri don aikin software.</p>
+      </div>
+      <div class="card">
+        <h3>Ga waƙoƙinmu</h3>
+        <p>Za mu samar da darussan bidiyo, slides, da misalai na code. Ana iya samun darussa a kan layi ko aji (idan akwai bukata).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" style="margin-top:18px">
+    <div class="card">
+      <h3>Darussan mu</h3>
+      <ul class="course-list">
+        <li><strong>Python - Farawa zuwa Matsakaici:</strong> Syntax, bayanai, functions, modules, da projects.</li>
+        <li><strong>Java - OOP da Aikace-aikace:</strong> Classes, inheritance, exceptions, da build tools.</li>
+        <li><strong>C++ - Performance da Systems:</strong> Memory, pointers, STL, da algorithms.</li>
+      </ul>
+      <p style="margin-top:8px">Kowane darasi yana da awanni, aikin gida, da takardar shaidar kammala.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" style="margin-top:18px">
+    <div class="card">
+      <h3>Tuntuɓi mu</h3>
+      <p>Idan kana son rijista ko tambaya, aiko da imel ko ka cika fom ɗin kasa.</p>
+      <form action="mailto:auwal@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Suna" required />
+        <input type="email" name="email" placeholder="Imel" required />
+        <textarea name="message" rows="4" placeholder="Saƙo: (misali: Ina son rijista a darasi)..." required></textarea>
+        <div style="margin-top:8px"><button class="btn primary" type="submit">Aika Saƙo</button></div>
+      </form>
+      <p style="margin-top:8px;font-size:13px;color:#456">Ko aiko da imel zuwa: <a href="mailto:auwal@example.com">auwal@example.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © <span id="year"></span> AUWAL ZARIA TECH — Koyar da Programming cikin Hausa.
+</footer>
+
+  </div>  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script></body>
+</html>
