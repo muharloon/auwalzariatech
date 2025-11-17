@@ -1,2 +1,0 @@
-# auwalzariatech
-Create another world 
